@@ -37,3 +37,12 @@ def read_from_json(target_dir):
     f.close()
     return data 
 ```
+
+### Make Dir
+
+```
+try:
+    os.makedirs(audio_path)
+except OSError:
+    pass
+```
