@@ -46,3 +46,7 @@ try:
 except OSError:
     pass
 ```
+
+### Torch version for save
+
+_use_new_zipfile_serialization=False
